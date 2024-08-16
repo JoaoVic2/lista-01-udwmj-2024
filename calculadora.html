@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,9 @@
 </head>
 <body>
     <div class="calculator">
-        <input type="text" id="display" disabled>
+        <div class="display-container">
+            <input type="text" id="display" disabled>
+        </div>
         <div class="buttons">
             <button class="btn operator" onclick="clearDisplay()">C</button>
             <button class="btn operator" onclick="deleteLast()">⌫</button>
@@ -25,9 +27,9 @@
             <button class="btn" onclick="appendToDisplay('1')">1</button>
             <button class="btn" onclick="appendToDisplay('2')">2</button>
             <button class="btn" onclick="appendToDisplay('3')">3</button>
-            <button class="btn equals" onclick="calculate()">=</button>
             <button class="btn zero" onclick="appendToDisplay('0')">0</button>
             <button class="btn" onclick="appendToDisplay('.')">.</button>
+            <button class="btn equals" onclick="calculate()">=</button>
         </div>
     </div>
     <script src="calculadora.js"></script>
