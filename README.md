@@ -73,7 +73,7 @@ Se você deseja contribuir com este projeto, siga as etapas abaixo:
 4. Envie para a branch principal: git push origin feature/nova-feature.
 5. Abra um Pull Request.
 ## Licença
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [MIT License](LICENSE) para mais detalhes.
 
 ## Contato
 João Victor dos Santos Araújo - @JoaoVic2 
